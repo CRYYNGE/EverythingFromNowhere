@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8JXzj7ZV2Ps0SkRLaw02MWoUZQ/TUUeiRct0EGQRQNPAsARxKkNzHkKHjAV+i55ul2gUZhFQrrAaASN29WwxXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CRYYNGE\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EverythingFromNowhere\\EverythingFromNowhere.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CRYYNGE\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
