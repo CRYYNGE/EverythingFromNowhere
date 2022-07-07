@@ -27,7 +27,7 @@ public class BirdBasher : ModItem
     public override void AddRecipes()
     {
         Recipe recipe = CreateRecipe();
-        recipe.AddIngredient(ModContent.ItemType<BirdBone>(), 25);
+        recipe.AddIngredient(ModContent.ItemType<BirdBone>(), 10);
         recipe.AddTile(TileID.WorkBenches);
         recipe.Register();
     }

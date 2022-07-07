@@ -34,6 +34,7 @@ public class ExampleNPCLoot : GlobalNPC
         if (npc.type == NPCID.Vulture)
         {
             npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<BirdBone>(), 1));
+            npcLoot.Add(ItemDropRule.Common(ItemID.IronOre, 1));
         }
     }
 }
