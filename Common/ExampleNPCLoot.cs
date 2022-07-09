@@ -14,16 +14,28 @@ public class ExampleNPCLoot : GlobalNPC
         if (npc.type == NPCID.Bird)
         {
             npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<BirdBone>(), 1));
+            if (Main.rand.Next(0, 100) > 90)
+            {
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DocumentShred>(), 1));
+            }
         }
 
         if (npc.type == NPCID.BirdBlue)
         {
             npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<BirdBone>(), 1));
+            if (Main.rand.Next(0, 100) > 90)
+            {
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DocumentShred>(), 1));
+            }
         }
 
         if (npc.type == NPCID.BirdRed)
         {
             npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<BirdBone>(), 1));
+            if (Main.rand.Next(0, 100) > 90)
+            {
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DocumentShred>(), 1));
+            }
         }
 
         if (npc.type == NPCID.GoldBird)

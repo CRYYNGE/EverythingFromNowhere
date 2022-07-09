@@ -4,4 +4,5 @@ Now available for 1.4, and now missing everything it had before.
 
 LATEST UPDATE:
 
-- Started work on the Bird Update, and added a fun weapon to play with in the meantime.
+- Set some frameworks for later updates.
+- Tweaked some Bird drops.

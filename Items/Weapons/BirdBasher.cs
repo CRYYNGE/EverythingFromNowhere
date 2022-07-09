@@ -17,8 +17,8 @@ public class BirdBasher : ModItem
     {
         Item.damage = 8;
         Item.DamageType = DamageClass.Melee;
-        Item.useTime = 25;
-        Item.useAnimation = 25;
+        Item.useTime = 30;
+        Item.useAnimation = 30;
         Item.useStyle = 1;
         Item.autoReuse = true;
         Item.UseSound = SoundID.Item1;

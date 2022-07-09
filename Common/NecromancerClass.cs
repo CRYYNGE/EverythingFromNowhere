@@ -8,11 +8,11 @@ namespace EverythingFromNowhere.Common
     public class Necromancer : ModPlayer
     {
 
-        public int kills;
+        public int Souls;
 
         public override void Initialize()
         {
-            kills = 0;
+            Souls = 0;
 
             base.Initialize();
         }
@@ -20,7 +20,7 @@ namespace EverythingFromNowhere.Common
         public override void SaveData(TagCompound tag)
         {
             
-            tag.Add("killskey", kills);
+            tag.Add("killskey", Souls);
 
 
 
@@ -30,7 +30,7 @@ namespace EverythingFromNowhere.Common
         {
             if (tag.ContainsKey("killskey"))
             {
-                kills = tag.GetInt("killskey");
+                Souls = tag.GetInt("killskey");
             }
         }
 

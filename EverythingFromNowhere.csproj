@@ -15,7 +15,6 @@
     <Folder Include="Events" />
     <Folder Include="Items\Accessories" />
     <Folder Include="Items\Junk" />
-    <Folder Include="Items\Lore" />
     <Folder Include="Mounts" />
     <Folder Include="NPCs" />
     <Folder Include="Tiles" />
