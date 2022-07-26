@@ -4,7 +4,6 @@ This mod aims to change large aspects of the Terraria game, including new conten
 
 LATEST UPDATE:
 
-- Small warmup, and preparing for the next tModLoader update.
-- Added a new weapon, check it out!
+- The Tinkerer's Update is here!
 
 Have an Idea? Pop on in at https://discord.gg/Q8k5PnBMXm !
