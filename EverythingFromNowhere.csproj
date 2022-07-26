@@ -15,13 +15,10 @@
     <Folder Include="Events" />
     <Folder Include="Items\Accessories" />
     <Folder Include="Items\Junk" />
-    <Folder Include="Items\Weapons\Magic" />
     <Folder Include="Items\Weapons\Necromancer" />
-    <Folder Include="Items\Weapons\Ranged" />
     <Folder Include="Items\Weapons\Summon" />
     <Folder Include="Items\Weapons\Throwing" />
     <Folder Include="Mounts" />
-    <Folder Include="NPCs" />
     <Folder Include="Projectiles" />
     <Folder Include="Tiles" />
   </ItemGroup>
