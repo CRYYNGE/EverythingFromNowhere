@@ -4,6 +4,7 @@ This mod aims to change large aspects of the Terraria game, including new conten
 
 LATEST UPDATE:
 
-- The Tinkerer's Update is here!
+- Added a new Material, Steel, which can be used to craft a new set of armor, weapons, and tools!
+- Added Charcoal, which can be used to craft Steel, along with other items!
 
 Have an Idea? Pop on in at https://discord.gg/Q8k5PnBMXm !
