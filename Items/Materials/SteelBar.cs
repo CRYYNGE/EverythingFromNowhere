@@ -1,4 +1,5 @@
 using Terraria;
+using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -12,6 +13,7 @@ namespace EverythingFromNowhere.Items.Materials
             DisplayName.SetDefault("Steel Bar");
             Tooltip.SetDefault("I am Iron Man!");
             
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 25;
         }
         
         public override void SetDefaults()

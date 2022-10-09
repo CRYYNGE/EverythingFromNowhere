@@ -1,4 +1,5 @@
 using Terraria;
+using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;using WorldGen = On.Terraria.WorldGen;
 
@@ -12,6 +13,7 @@ namespace EverythingFromNowhere.Items.Weapons.Melee.PreHardmode.PreBoss
             DisplayName.SetDefault("Steel Broadsword");
             Tooltip.SetDefault("And they said Chivalry was dead.");
             
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         
         public override void SetDefaults()

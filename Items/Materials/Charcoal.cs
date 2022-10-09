@@ -1,3 +1,4 @@
+using Terraria.GameContent.Creative;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -11,6 +12,8 @@ namespace EverythingFromNowhere.Items.Materials
         {
             DisplayName.SetDefault("Charcoal");
             Tooltip.SetDefault("You got a great idea for an art piece.. Oh, it's gone.");
+            
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 10;
         }
         
         public override void SetDefaults()

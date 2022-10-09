@@ -1,7 +1,8 @@
 using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.GameContent.Creative;
 using Terraria.ID;
-using Terraria.ModLoader;using WorldGen = On.Terraria.WorldGen;
+using Terraria.ModLoader;
 
 namespace EverythingFromNowhere.Items.Weapons.Ranged.PreHardmode.PreBoss
 {
@@ -11,6 +12,8 @@ namespace EverythingFromNowhere.Items.Weapons.Ranged.PreHardmode.PreBoss
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Steel Bow");
+            
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
         
         public override void SetDefaults()
