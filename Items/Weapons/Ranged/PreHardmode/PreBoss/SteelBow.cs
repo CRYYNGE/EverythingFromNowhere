@@ -22,22 +22,22 @@ namespace EverythingFromNowhere.Items.Weapons.Ranged.PreHardmode.PreBoss
             Item.rare = 0;
             Item.DamageType = DamageClass.Ranged;
             Item.UseSound = SoundID.Item5;
-            Item.damage = 11;
+            Item.damage = 10;
             Item.useTime = 20;
             Item.useAnimation = 20;
             Item.crit = 2;
-            Item.knockBack = 7;
+            Item.knockBack = 0;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.useAmmo = AmmoID.Arrow;
             Item.autoReuse = true;
-            Item.shootSpeed = 7f;
+            Item.shootSpeed = 6f;
             Item.shoot = ProjectileID.PurificationPowder;
         }
 
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.Materials.SteelBar>(9);
+            recipe.AddIngredient<Items.Materials.SteelBar>(8);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }

@@ -23,7 +23,7 @@ namespace EverythingFromNowhere.Items.Weapons.Melee.PreHardmode.PreBoss
             Item.rare = 0;
             Item.DamageType = DamageClass.Melee;
             Item.UseSound = SoundID.Item1;
-            Item.damage = 15;
+            Item.damage = 14;
             Item.useTime = 24;
             Item.useAnimation = 24;
             Item.crit = 2;
