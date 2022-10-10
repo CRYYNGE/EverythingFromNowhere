@@ -18,6 +18,5 @@
     <Folder Include="Items\Weapons\Summoner\Pre-Hardmode" />
     <Folder Include="Mounts" />
     <Folder Include="NPCs" />
-    <Folder Include="Tiles" />
   </ItemGroup>
 </Project>

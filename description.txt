@@ -10,7 +10,6 @@ LATEST UPDATE:
 
 LATEST PATCH:
 
-* Nerfed the damage of the Steel weapons.
-* Added some Contributor items.
+* Added the Sewing Machine, which will be used soon! It can also be used to replace the Loom.
 
 Have an Idea? Pop on in at https://discord.gg/Q8k5PnBMXm !

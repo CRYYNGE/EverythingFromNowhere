@@ -32,6 +32,7 @@ namespace EverythingFromNowhere.Items.Materials
             recipe.AddIngredient(ItemID.IronOre, 3);
             recipe.AddTile(TileID.Furnaces);
             recipe.Register();
+            
         }
     }
 }
