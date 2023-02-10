@@ -22,7 +22,14 @@ namespace EverythingFromNowhere.Items.Materials
             Item.height = 20;
             Item.maxStack = 999;
             Item.value = 0;
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.placeStyle = 0;
+            Item.useTime = 10;
+            Item.useAnimation = 10;
+            Item.autoReuse = true;
+            Item.consumable = true;
             Item.rare = 0;
+            Item.createTile = ModContent.TileType<Tiles.Bars.SteelTileBar>();
         }
 
         public override void AddRecipes()
