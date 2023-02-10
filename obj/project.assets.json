@@ -31,26 +31,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CRYYNGE\\.nuget\\packages\\": {}
+    "/home/rabies/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CRYYNGE\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EverythingFromNowhere\\EverythingFromNowhere.csproj",
+      "projectUniqueName": "/home/rabies/.local/share/Terraria/tModLoader/ModSources/EverythingFromNowhere/EverythingFromNowhere.csproj",
       "projectName": "EverythingFromNowhere",
-      "projectPath": "C:\\Users\\CRYYNGE\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EverythingFromNowhere\\EverythingFromNowhere.csproj",
-      "packagesPath": "C:\\Users\\CRYYNGE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CRYYNGE\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EverythingFromNowhere\\obj\\",
+      "projectPath": "/home/rabies/.local/share/Terraria/tModLoader/ModSources/EverythingFromNowhere/EverythingFromNowhere.csproj",
+      "packagesPath": "/home/rabies/.nuget/packages/",
+      "outputPath": "/home/rabies/.local/share/Terraria/tModLoader/ModSources/EverythingFromNowhere/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CRYYNGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/rabies/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -80,16 +78,27 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/7.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8JXzj7ZV2Ps0SkRLaw02MWoUZQ/TUUeiRct0EGQRQNPAsARxKkNzHkKHjAV+i55ul2gUZhFQrrAaASN29WwxXA==",
+  "dgSpecHash": "i1cIqJAoDtRAshR2jDh+wuEULovlvS7Sqc+EZDB4Kbe9wf7fJRajwxAaB2BPoRgovcVFjVtOnLKlkhYl20xEdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CRYYNGE\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EverythingFromNowhere\\EverythingFromNowhere.csproj",
+  "projectFilePath": "/home/rabies/.local/share/Terraria/tModLoader/ModSources/EverythingFromNowhere/EverythingFromNowhere.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CRYYNGE\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+    "/home/rabies/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512",
+    "/home/rabies/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/rabies/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }
