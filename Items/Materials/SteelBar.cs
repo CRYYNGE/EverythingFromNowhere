@@ -35,7 +35,7 @@ namespace EverythingFromNowhere.Items.Materials
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.Materials.Charcoal>(1);
+            recipe.AddIngredient(ItemID.Wood, 1);
             recipe.AddIngredient(ItemID.IronOre, 3);
             recipe.AddTile(TileID.Furnaces);
             recipe.Register();
