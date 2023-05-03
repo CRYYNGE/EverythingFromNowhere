@@ -5,40 +5,41 @@ using Terraria.ModLoader;using WorldGen = On.Terraria.WorldGen;
 
 namespace EverythingFromNowhere.Items.Weapons.Melee.PreHardmode.PreBoss
 {
-    public class Sord : ModItem
+    public class CatClaws : ModItem
     {
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Sord");
-            Tooltip.SetDefault("Bro come get a ruler to check out this terrible sword.,");
+            DisplayName.SetDefault("Cat Claws");
+            Tooltip.SetDefault("Forged from the cuteness of a thousand kittens.");
 
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
 
         public override void SetDefaults()
         {
-            Item.width = 20;
-            Item.height = 20;
+            Item.width = 15;
+            Item.height = 15;
             Item.maxStack = 1;
             Item.value = 0;
-            Item.rare = ItemRarityID.Gray;
+            Item.rare = ItemRarityID.White;
             Item.DamageType = DamageClass.Melee;
             Item.UseSound = SoundID.Item1;
-            Item.damage = 1;
-            Item.useTime = 24;
-            Item.useAnimation = 24;
-            Item.crit = 2;
-            Item.knockBack = 7;
+            Item.damage = 9;
+            Item.useTime = 5;
+            Item.useAnimation = 5;
+            Item.autoReuse = true;
+            Item.crit = 1;
+            Item.knockBack = 5;
             Item.useStyle = 1;
         }
 
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.Weapons.Melee.PreHardmode.PreBoss.Excalipur>(1);
-            recipe.AddIngredient(ItemID.FallenStar);
-            recipe.AddTile(TileID.Anvils);
+            recipe.AddIngredient(ItemID.Silk, 14);
+            recipe.AddIngredient(ItemID.Cobweb, 26);
+            recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }
     }
